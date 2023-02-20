@@ -22,4 +22,6 @@ Even if people change the way they say the goal of the SAN is always to get to t
 FOR TEST
 
 pip3 install -r requeriments.txt
-\npython3 san.py
+
+
+python3 san.py
