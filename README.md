@@ -21,7 +21,7 @@ Even if people change the way they say the goal of the SAN is always to get to t
 
 FOR TEST
 
-pip3 install -r requeriments.txt
+pip3 install -r requirements.txt
 
 
 python3 san.py
