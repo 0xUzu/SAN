@@ -17,3 +17,9 @@ It contains examples of how the SAC should respond and contains malicious phrase
 
 
 Even if people change the way they say the goal of the SAN is always to get to the subject of the text, and this can make it difficult to create new malicious prompts, even so eventually new payloads appear, but it is easy to feed the SAN with some subject context and this allows it to detect malicious prompts even if they have other words but generate the same meaning.
+
+
+FOR TEST
+
+pip3 install -r requeriments.txt
+python3 san.py
