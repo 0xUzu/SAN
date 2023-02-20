@@ -8,9 +8,6 @@ openai.api_key = "YOUR_API_TOKEN_OPENAI"
 def san(a):
     with open('san.data') as f:
         lines = f.readlines()
-    if a == 0:
-        s = 0
-    else:
         response = openai.Completion.create(
         model="text-davinci-003",
         prompt="{}\n\n{}Human:{} \nAI:".format(san_context, lines, a),
